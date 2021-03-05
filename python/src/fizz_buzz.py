@@ -40,6 +40,15 @@ def fizz_buzz_diff(limit):
         if i % 1080 == 0:
             print("Not FizzBuzz")
 
+def fizz_buzz_diff_chia(limit):
+
+    for i in range(1, limit):
+        if i % 12 == 0:
+            print("Not Fizz")
+        if i % 23 == 0:
+            print("Not Buzz")
+        if i % 1080 == 0:
+            print("Not FizzBuzz")
 
 def main():
     """
